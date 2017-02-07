@@ -1,6 +1,6 @@
 //Maya ASCII 2017 scene
 //Name: Hammer uv.ma
-//Last modified: Wed, Feb 01, 2017 07:06:04 PM
+//Last modified: Wed, Feb 01, 2017 07:06:55 PM
 //Codeset: 1252
 requires maya "2017";
 requires "stereoCamera" "10.0";
@@ -14,8 +14,8 @@ fileInfo "license" "education";
 createNode transform -s -n "persp";
 	rename -uid "00768932-4D40-E2A7-1D84-999A499740A2";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -0.16746226663435643 8.4484947008014899 10.607677525340783 ;
-	setAttr ".r" -type "double3" 703.46164728402834 1434.5999999998869 0 ;
+	setAttr ".t" -type "double3" 2.26771007690225 4.9912486485165832 -10.358894152420783 ;
+	setAttr ".r" -type "double3" 722.06164728400597 1612.1999999999275 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "2208FDC7-4D21-FFF0-9286-3CA271C45FF6";
 	setAttr -k off ".v" no;
